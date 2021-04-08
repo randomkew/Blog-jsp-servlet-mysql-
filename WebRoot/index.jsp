@@ -9,32 +9,32 @@ request.setAttribute("path", basePath);
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
   <head>
-		<title>HLK_1140技术专栏</title>
+		<title>JSP 오픈소스</title>
 		<link rel="stylesheet" type="text/css" href="${path}css/index.css" />
 	</head>
 	<body>
 		<header>
-			<div class="login"><a href="login.html">登陆</a></div>
-			<div class="regist"><a href="register.html">注册</a></div>
+			<div class="login"><a href="login.html">ID</a></div>
+			<div class="regist"><a href="register.html">등록</a></div>
 			<div id="logo"><a href="index.html"></a></div>
 			<nav class="topnav" id="topnav">
-		  	  <a href="${path}servlet/DoIndex"><span>首页</span><span class="en">Home Page</span></a>
-		  	  <a href="${path }jsp/about.jsp"><span>关于我</span><span class="en">About Me</span></a>
-		  	  <a href="${path }servlet/GetTitleListServlet"><span>技术干货</span><span class="en">Life</span></a>
-		  	  <a href="${path }jsp/knowledge.jsp"><span>资料分享</span><span class="en">Learn</span></a>
-		  	  <a href="${path }servlet/GetDiaryListServlet"><span>碎言碎语</span><span class="en">Diary</span></a>
-		  	  <a href=""><span>精彩相册</span><span class="en">Photo</span></a>
-		  	  <a href="${path}jsp/message_board.jsp"><span>留言板</span><span class="en">Board</span></a>
+		  	  <a href="${path}servlet/DoIndex"><span>홈페이지</span><span class="en">Home Page</span></a>
+		  	  <a href="${path }jsp/about.jsp"><span>소개</span><span class="en">About Me</span></a>
+		  	  <a href="${path }servlet/GetTitleListServlet"><span>삶</span><span class="en">Life</span></a>
+		  	  <a href="${path }jsp/knowledge.jsp"><span>기술</span><span class="en">Stack</span></a>
+		  	  <a href="${path }servlet/GetDiaryListServlet"><span>일기</span><span class="en">Diary</span></a>
+		  	  <a href=""><span>사진</span><span class="en">Photo</span></a>
+		  	  <a href="${path}jsp/message_board.jsp"><span>게시판</span><span class="en">Board</span></a>
 		  	</nav>
 		</header>
 		<div class="banner">
 			<section class="box">
 			    <ul class="texts">
-			      <p>每个人的生命就像沙漏，里面装的沙子总量大致相当，</p>
-			      <p>不同的是，有的沙漏颈部较细，有的沙漏颈部较粗。</p>
-			      <p>颈部较细的沙漏能够抓住每一粒时间之沙，即使沙子总</p>
-			      <p>量一样，也能拥有更长的生命。</br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-			      	&nbsp;&nbsp;&nbsp;-----《暗时间》
+			      <p>대구대학교 오픈소스강의</p>
+			      <p>컴퓨터공학과 21727688 신동민</p>
+			      <p>JSP+Servlet+mysql분석</p>
+			      <p>처음이여서 하나도 모르겠습니다...</br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			      	&nbsp;&nbsp;&nbsp;-----《과제》
 			      </p>
 			    </ul>
 			    <div class="avatar"><a href="#"><span>史小坤</span></a> </div>
@@ -106,10 +106,10 @@ request.setAttribute("path", basePath);
 			      <p>友情<span>链接</span></p>
 			    </h3>
 			    <ul class="website">
-			      <li><a href="http://blog.csdn.net/hlk_1135">我的博客</a></li>
-			      <li><a href="http://blog.csdn.net/softwareldu">张小峰老师个人博客</a></li>
-			      <li><a href="http://www.cnblogs.com/xrq730/p/4994545.html">五月的仓颉</a></li>
-			      <li><a href="http://blog.csdn.net/llwwlql">L-75专栏</a></li>
+			      <li><a href="http://blog.csdn.net/hlk_1135">My blog.</a></li>
+			      <li><a href="http://blog.csdn.net/softwareldu">Miss Chang Hsiao-feng's blog블로그</a></li>
+			      <li><a href="http://www.cnblogs.com/xrq730/p/4994545.html">The Cangjie of May블로그</a></li>
+			      <li><a href="http://blog.csdn.net/llwwlql">L-75블로그</a></li>
 			    </ul> 
 			    </div>  
 			    <div id="bdshare" class="bdshare_t bds_tools_32 get-codes-bdshare">
@@ -128,7 +128,7 @@ request.setAttribute("path", basePath);
 			</article>
 		</div>
 		<footer>
-		  	<p>Design by HLK_1135&nbsp;&nbsp;姓名:史坤&nbsp;&nbsp;学号:20142203717</p>
+		  	<p>Design by HLK_1135&nbsp;&nbsp;이름:신동민&nbsp;&nbsp;학번:21727688</p>
 		</footer>
 		<script src="js/index.js"></script>
 	</body>
